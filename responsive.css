@@ -1,0 +1,10 @@
+@media screen and (max-width: 1109px){
+.header {
+    padding: 10px 1%;
+}
+
+.first_menu {
+    background-color: #cccccc;
+    height: 27%;
+}
+}

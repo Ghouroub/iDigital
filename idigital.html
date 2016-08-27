@@ -1,0 +1,440 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="responsive.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="clearfix">
+			<div class="header">
+				<div class="premium">
+					<img src="premium.png"/>
+				</div>
+				<nav class="first_menu">
+					<ul>
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								מוצרי Apple
+							</button>
+							<div class="dropdown-content">
+								<a href="#"> <img src="images/iphone-menu.png"/>iphone</a>
+								<a href="#"> <img src="images/watch_hero_2x.png"/>Apple Watch</a>
+								<a href="#"> <img src="images/iPad-menu.png"/>iPad</a>
+								<a href="#"> <img src="images/menu_mac.png"/>Mac</a>
+								<a href="#"> <img src="images/apple-tv-4-topic.png"/>Apple TV</a>
+								<a href="#"> <img src="images/airportex2.jpg"/>AirPort</a>
+								<a href="#"> <img src="images/ipod.png"/>iPod</a>
+								<a href="#"> <img src="images/warranty.jpg"/>שירותים מורחבים</a>
+							</div>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								אביזרים משלימים
+							</button>
+							<div class="dropdown-content">
+								<a href="#"><img src="images/rezuhot.jpg"/>אביזרים ל-Apple Watch</a>
+								<a href="#"><img src="images/protection_menu.jpg"/>תיקים וכיסויים</a>
+								<a href="#"><img src="images/tikshoret_menu.jpg"/>כבלים ומתאמים</a>
+								<a href="#"><img src="images/equipment.jpg"/>עכברים ומקלדות</a>
+								<a href="#"><img src="images/car.jpg"/>רכב</a>
+								<a href="#"><img src="images/software.jpg"/>תוכנות</a>
+								<a href="#"><img src="images/saving_menu.jpg"/>אחסון וגיבוי</a>
+								<a href="#"><img src="images/stand.jpg"/>מעמדים ומנשאים</a>
+								<a href="#"><img src="images/battery.jpg"/>ספקים וסוללות</a>
+								<a href="#"><img src="images/netavim.jpg"/>תקשורת ונתבים</a>
+							</div>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								סאונד
+							</button>
+							<div class="dropdown-content">
+								<a href="#"><img src="images/music_menu.jpg"/>אוזניות</a>
+								<a href="#"><img src="images/netavim.jpg"/>רמקולים</a>
+							</div>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								גאדג'טים
+							</button>
+							<div class="dropdown-content">
+								<a href="#"><img src="images/camera.jpg"/> Camera</a>
+								<a href="#"><img src="images/design.jpg"/> Design</a>
+								<a href="#"><img src="images/ipad-jobw.jpg"/>JobW</a>
+								<a href="#"><img src="images/sport_menu.jpg"/>Sport</a>
+							</div>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								חנויות iDigital
+							</button>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								חנות אונליין
+							</button>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								שירות ותמיכה
+							</button>
+							<div class="dropdown-content">
+								<a href="#"><img src="images/iphone-menu.png"/>iPhone</a>
+								<a href="#"><img src="images/iPad-menu.png"/>iPad</a>
+								<a href="#"><img src="images/menu_mac.png"/>Mac</a>
+								<a href="#"><img src="images/ipod.png"/>iPod</a>
+								<a href="#"><img src="images/apple_tv.png"/>Apple TV</a>
+							</div>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								עסקים
+							</button>
+						</li>
+						</li>
+
+						<li>
+						<li class="dropdown">
+							<button class="dropbtn">
+								צור קשר
+							</button>
+						</li>
+						</li>
+
+				</nav>
+				<div class="left_header">
+					<div class="logo">
+						<img src="iDigital.png" style="margin-top:-58px"/>
+					</div>
+				</div>
+			</div>
+			<div class="second_menu">
+				<div id="sound">
+					<img src="idigital-sound.jpg" />
+				</div>
+				<div id="cool">
+					<img src="idigital-cool.jpg" />
+				</div>
+				<div id="wellness">
+					<img src="idigital-wellness.jpg" />
+				</div>
+				<div id="kids">
+					<img src="idigital-kids.jpg" />
+				</div>
+				<div id="creative">
+					<img src="idigital-creative.jpg" />
+				</div>
+			</div>
+			<div class="slide" style="max-width:100%;">
+				<a href="#"><img class="mySlides" src="WWEN_Watch_Web_Banner_2048_600.jpg" style="width:100%;"/> </a>
+				<a href="#"><img class="mySlides" src="WWEN_iPad_Pro_9-7_l600.jpg" style="width:100%;"/></a>
+				<a href="#"><img class="mySlides" src="OFFICEFORMAC.jpg" style="width:100%;"/></a>
+				<a href="#"><img class="mySlides" src="iPhone_SE_Web_Banner2048_6001_price.jpg" style="width:100%;"/></a>
+			</div>
+
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for ( i = 0; i < x.length; i++) {
+						x[i].style.display = "none";
+					}
+					myIndex++;
+					if (myIndex > x.length) {
+						myIndex = 1
+					}
+					x[myIndex - 1].style.display = "block";
+					setTimeout(carousel, 2000);
+					// Change image every 2 seconds
+				}
+			</script>
+
+			<div class="third_menu">
+				<div class="item">
+					<div class="headline">
+						<h3>יש למה לחכות</h3>
+					</div>
+					<div class="description">
+
+						<p>
+							<br>
+							אירוע המפתחים הגדול של Apple,
+							<br>
+							ה- WWDC, שהתקיים לאחרונה בסאן
+							<br>
+							פרנסיסקו, הביא עימו בשורות רבות
+							<br>
+							בתחום מערכות הפעלה וחוויית המשתמש.
+						</p>
+						<a href="#"> לפרטים נוספים </a>
+					</div>
+					<div class="photo">
+						<img src="WWDC-2016 copy.jpg"/>
+					</div>
+				</div>
+				<div class="item">
+					<div class="headline">
+						<h3>עולם החדשנות של iDigital</h3>
+					</div>
+					<div class="description1">
+						<p>
+							מגוון משחקים, אביזרים ופתרונות דיגטלים
+							<br>
+							מתוחכמים. רעיון נפלא למתנה לכל חובב
+							<br>
+							טכנולוגיה.
+							<br>
+							<br>
+						</p>
+						<a href="#"> לכניסה </a>
+					</div>
+					<div class="photo1">
+						<img src="45913_sgira.png"/>
+					</div>
+				</div>
+				<div class="item">
+					<div class="headline">
+						<h3>Office ל-Mac בעברית</h3>
+					</div>
+					<div class="description1">
+						<p>
+							Office 2016 החדש, זמין עכשיו בתמיכה
+							<br>
+							בעברית ל-Mac, כך שתוכלו ליהנות מכל
+							<br>
+							העולמות.
+							<br>
+							<br>
+						</p>
+						<a href="#"> למידע נוסף </a>
+					</div>
+					<div class="photo1">
+						<img src="office for mac packshots_w.jpg"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="fourth_menu">
+				<div class="item">
+					<div class="headline">
+						<h3>קריירה ב-iDigital</h3>
+					</div>
+					<div class="description">
+						<p>
+							בואו לבנות קריירה בחברה צעירה
+							<br>
+							ודינמית. ליהנות מאפשרויות קידום, להכיר את
+							<br>
+							הטכנולוגיה החדישה ביותר ולעבוד עם מוצרי
+							<br>
+							Apple המובילים ושלל גאדג'טים.
+						</p>
+						<a href="#">לרשימת המשרות</a>
+					</div>
+					<div class="photo">
+						<img src="ipad-jobw.jpg"/>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="headline">
+						<h3>iDigital  טרייד אין</h3>
+					</div>
+					<div class="description1">
+						<p>
+							החזר מכשיר ישן  וקבל זיכוי מיידי לרכישת
+							<br>
+							מכשיר Apple חדש.
+							<br>
+							<br>
+						</p>
+						<a href="#">לחישוב שווי המכשיר שברשותך</a>
+					</div>
+					<div class="photo1">
+						<img src="Screen Shot 2016-05-02 at 4.36.26 PM.png"/>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="headline">
+						<h3>iDigital Experts</h3>
+					</div>
+					<div class="description1">
+						<p>
+							המומחים שלנו עומדים לרשותכם,
+							<br>
+							ליעוץ ותמיכה במכשירי Apple.
+							<br>
+							<br>
+						</p>
+						<a href="#">למידע נוסף</a>
+					</div>
+					<div class="photo1">
+						<img src="expert_men1.jpg"/>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="slide1" style="max-width:1350px;">
+				<a href="#"><img class="mySlides1" src="TLV_BANNER.gif" style="width:100%;"/> </a>
+				<a href="#"><img class="mySlides1" src="banner to online store.jpg" style="width:100%;"/> </a>
+			</div>
+			</div>
+			<footer>
+				<div class="column">
+					<ul class="tor">
+						<h1>סניפים</h1>
+						<li>
+							<a href="#">קניון רמת אביב</a>
+						</li>
+						<li>
+							<a href="#">חיפה- גרנד קניון</a>
+						</li>
+						<li>
+							<a href="#">ראש"צ - קניון G</a>
+						</li>
+						<li>
+							<a href="#">ירושלים- קניון מלחה</a>
+						</li>
+						<li>
+							<a href="#">אילת - קניון מול הים</a>
+						</li>
+						<li>
+							<a href="#">דיזינגוף סנטר</a>
+						</li>
+						<li>
+							<a href="#">כפר סבא - קניון G</a>
+						</li>
+						<li>
+							<a href="#">נתניה - מתחם ביג פולג</a>
+						</li>
+						<li>
+							<a href="#">באר שבע - גרנד קניון</a>
+						</li>
+						<li>
+							<a href="#">מתחם שרונה</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<ul class="tor">
+						<h1>Mac</h1>
+						<li>
+							<a href="#">MacBook Pro</a>
+						</li>
+						<li>
+							<a href="#">MacBook Air</a>
+						</li>
+						<li>
+							<a href="#">iMac</a>
+						</li>
+						<li>
+							<a href="#">Mac mini</a>
+						</li>
+						<li>
+							<a href="#">Mac Pro</a>
+						</li>
+						<li>
+							<a href="#">Imac Retina</a>
+						</li>
+						<li>
+							<a href="#">מידע ושרותי - Mac</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<ul class="tor">
+						<h1>ipad</h1>
+						<li>
+							<a href="#">ipad Air 2</a>
+						</li>
+						<li>
+							<a href="#">ipad Pro</a>
+						</li>
+						<li>
+							<a href="#">ipad mini 4</a>
+						</li>
+						<li>
+							<a href="#">מידע ושרותי - ipad</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<ul class="tor">
+						<h1>iphone</h1>
+						<li>
+							<a href="#">iphone 6s</a>
+						</li>
+						<li>
+							<a href="#">iphone 6</a>
+						</li>
+						<li>
+							<a href="#">מידע ושרות</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<ul class="tor">
+						<h1>שרות ותמיכה</h1>
+						<li>
+							<a href="#">הרחבת אחריות ל - Mac</a>
+						</li>
+						<li>
+							<a href="#">תוכנית שרות ל - iphone</a>
+						</li>
+						<li>
+							<a href="#">תוכנית שרות ל - ipad</a>
+						</li>
+						<li>
+							<a href="#">שירותי מעבדה</a>
+						</li>
+						<li>
+							<a href="#">סטטוס קריאת שרות</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<ul class="tor">
+						<h1>שירות לקוחות:</h1>
+						<li>
+							<a href="#">09:00-17:00  ימים א' - ה' 03-9005355</a>
+						</li>
+						<h1>ייעוץ ומכירות:</h1>
+						<li>
+							<a href="#">09:00-17:00  ימים א' - ה' 03-9005355</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+	</body>
